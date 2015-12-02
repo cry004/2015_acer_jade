@@ -1,0 +1,75 @@
+extends ./template.jade
+block contain
+    .bg
+        img(src="img/bg.jpg")
+        .bg_mask    
+            .content
+                .form_bg
+                    img(src="img/form_bg.png")
+                    form.q-text#q-text(name="q-text")
+                        .part1
+                            select#Product.selectstyle(name="Product")
+                                option(value="" disabled="disabled" selected="selected") 請選擇
+                                option VN7-571G-53QL
+                                option VN7-591G-58M9
+                                option VN7-591G-505B
+                                option VN7-591G-736P
+                                option VN7-591G-74JF
+                                option VN7-591G-76HK
+                                option VN7-791G-513J
+                                option VN7-791G-76NM
+                                option VN7-791G-78RF
+                                option VN7-591G-52H9
+                            input#Pserial.inputstyle(type="text" name="Pserial" maxlength="22")
+                            input#Preceipt.inputstyle(type="text" name="Preceipt" maxlength="10")
+                            select#Store.selectstyle(name="Store")
+                                option(value="" disabled="disabled" selected="selected") 請選擇
+                                option 大同3C
+                                option 燦坤
+                                option 燦坤快3網路旗艦店
+                                option 大潤發
+                                option 茂訊
+                                option 彩虹3C
+                                option 全國電子
+                                option 蔡家國際
+                                option 欣亞
+                                option 順發3C
+                                option 華克電腦
+                                option Best電器
+                                option Yahoo購物中心
+                                option Pchome線上購物
+                                option 崑碁電腦
+                                option 良興電子
+                                option 三井資訊
+                                option 虹優科技
+                                option 神腦
+                                option 其它              
+                            input#Store_name.inputstyle(type="text" name="Store_name" maxlength="20")
+                            input#Buydate.inputstyle(type="text" name="Buydate" maxlength="20" readonly="readonly")
+                            .box
+                                input#readRule(type="checkbox" name="readRule")
+                                input#sendRule(type="checkbox" name="sendRule")
+                        .part2
+                            input#uName.inputstyle(type="text" name="uName" maxlength="20")
+                            input#tel.inputstyle(type="text" name="tel" maxlength="10" onfocus="if(this.value=='如輸入市話請包含區碼，例如：0226963131') {this.value='';this.style.color='#000';this.style.fontSize='medium'}" onblur="if(this.value=='') {this.value='如輸入市話請包含區碼，例如：0226963131';this.style.color='#000';this.style.fontSize='smaller'};if(this.value !=='如輸入市話請包含區碼，例如：0226963131'){this.style.color='#000';}" value="如輸入市話請包含區碼，例如：0226963131" style="font-size: 10px;")
+                            input#email.inputstyle(type="text" name="email" maxlength="50")
+                            select#zone1.selectstyle2(name="zone1" style="margin-right: 26px")
+                            select#zone2.selectstyle2(name="zone2")
+                            input#zipcode.zipcode(name="zipcode" type="text" disabled="disabled" style="display:none")
+                            input#address.inputstyle(type="text" name="address" maxlength="50")
+                            <!--<input  name="ae_id" type="text" class="ae_id"  disabled="disabled" style="display:none" value="1"/>-->  
+                    .store_tit 分店
+                    .demo
+                    .agreement(onclick="outlink('agree')")
+                    .semd_btn(onclick="checkStep1form()")
+            .demo_c
+                .demo_pic
+                    .demo_tit
+                    .close1 
+                        img(src="img/close.jpg")
+                .send
+                    a(class="mail" href="mailto:2014acerevent@gmail.com")
+                    .close2
+                        img(src="img/close.jpg")
+block scritp
+    <script>var page = 'login';</script>           

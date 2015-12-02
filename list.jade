@@ -1,0 +1,23 @@
+extends ./template.jade
+block contain
+	.bg(style='position: absolute')
+		img(src='img/bg2.jpg')
+	|         
+	.content
+		.list_c
+			.winner_tit
+				img(src='img/winner_tit.jpg')
+			|                 
+			select#Date(name='Date')
+				// <option>2015.04.08</option>
+			|                 
+			table.wform_tit(style='width: 93%')
+				tr(style='background:#fcd707; border:none')
+				th(style='width: 97px') 得獎日期                        
+				th 姓名
+				th 手機號碼
+				th 銷售門市                 
+			.tableBox
+				table.wform(style='width: 100%')
+block script
+	<script>var page = 'list';</script>

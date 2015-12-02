@@ -1,0 +1,30 @@
+.nav
+  .navbg
+    img(src="img/navbg.gif" usemap="#nav_btns" style="position: absolute; width: auto; height: auto")
+    .hover
+      .nav1_h(onclick="outlink('index');")
+        img(src="img/nav1_h.gif")
+        |    
+      .nav2_h(onclick="outlink('product');")
+        img(src="img/nav2_h.gif")
+        |  
+      .nav3_h(onclick="outlink('login');")
+        img(src="img/nav3_h.gif")
+        |  
+      .nav4_h(onclick="outlink('rule');")
+        img(src="img/nav4_h.gif")
+        | 
+      .nav5_h(onclick="outlink('winner');")
+        img(src="img/nav5_h.gif")
+    map#nav_btns(name="nav_btns")
+      area(shape="polygon" coords="140,0,278,0,244,64,140,64" href="index.html")
+      area(shape="polygon" coords="278,0,444,0,412,64,244,64" href="product.html")
+      area(shape="polygon" coords="444,0,570,0,542,64,412,64" href="login.html")
+      area(shape="polygon" coords="570,0,696,0,665,64,542,64" href="rule.html")
+      area(shape="polygon" coords="696,0,800,0,800,64,665,64" nohref="nohref")
+
+    .logo(onclick="outlink('official');")
+  .intel
+      span Acer推薦使用Windows.
+      .intel_logo
+        img(src="img/intel_logo.png")

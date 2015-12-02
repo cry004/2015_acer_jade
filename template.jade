@@ -1,0 +1,28 @@
+- var name = 'productrule'
+
+doctype html
+html(lang="zh-tw")
+	head
+		case name
+		when 'productrule'
+			link(href='css/rule.css', rel='stylesheet', type='text/css')
+			include ./header.jade
+		default
+			include ./header.jade
+	body
+
+	case name
+		when 'productrule'
+			.wrapper(style="overflow-y: auto; height: auto")
+				block contain
+				include ./nav.jade
+				include ./footer.jade
+		default
+			.wrapper
+				block contain
+				include ./nav.jade
+				include ./footer.jade
+
+	include ./loading.jade
+	include ./script.jade
+	block script

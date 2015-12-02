@@ -1,0 +1,46 @@
+meta(content='text/html; charset=utf-8', http-equiv='Content-Type')
+title Acer 要追夢就玩大一點
+// <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+meta(property='og:type', content='website')
+meta(content='Acer 要追夢就玩大一點', name='title')
+meta(content='acer,aspire,laptop,V-Nitro,nitro,宏碁,宏碁筆電,筆電,電腦,發票登錄,優惠,促銷,春電展,春季電腦展', name='keywords')
+meta(content='過新活動期間購買Aspire V Nitro系列機種，即可天天抽電競滑鼠！', name='description')
+meta(property='og:title', content='Acer 要追夢就玩大一點')
+meta(property='og:description', content='過新活動期間購買Aspire V Nitro系列機種，即可天天抽電競滑鼠！')
+meta(property='og:url', content='http://www.acer-sp.com.tw/v-nitro/index.html')
+meta(property='og:image', content='http://acer-sp.com.tw/v-nitro/img/fb.jpg')
+link(rel='short icon', href='img/16x16.ico')
+//if lt IE 9
+  script(src='//html5shiv.googlecode.com/svn/trunk/html5.js')
+script(src='scripts/bzDetect.js', type='text/javascript')
+script(type='text/javascript').
+        if(navigator.platform.indexOf("Win") == 0 || navigator.platform.indexOf("Mac") == 0){
+        } else {
+        if (!Array.prototype.indexOf) {
+        Array.prototype.indexOf = function (elt /*, from*/) {
+        var len = this.length >>> 0;
+        var from = Number(arguments[1]) || 0;
+        from = (from < 0)
+        ? Math.ceil(from)
+        : Math.floor(from);
+        if (from < 0)
+        from += len;
+        for (; from < len; from++) {
+        if (from in this &&
+        this[from] === elt)
+        return from;
+        }
+        return -1;
+        };
+        }
+        var url=window.location.toString();
+        var str="";
+        if(url.indexOf("?")!=-1){
+        window.location.href="m/?"+url.split("?")[1];
+        } else {
+        window.location.href="m/";
+        }
+        }
+// css
+// <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+link(href='css/all.css', rel='stylesheet', type='text/css')

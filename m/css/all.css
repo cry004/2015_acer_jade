@@ -1,0 +1,63 @@
+﻿html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,blockquote:before,blockquote:after{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}html{width:100%;height:100%}body{width:100%;height:100%;position:relative;font-family:Arial,"微軟正黑體"}a{text-decorate:none}.loading{position:fixed;width:100%;height:100%;left:0;top:0}.loading .loadingbg{position:absolute;width:100%;height:100%;left:0;top:0;background:#131313}.loading .loadingicon{position:absolute;width:360px;height:150px;left:0px;right:0px;top:0px;bottom:0px;margin:auto;text-align:center}.loading .loadingicon .loadingpic{width:100%;height:100%;position:absolute;background-image:url("../img/loading.jpg");background-position:0 0; background-size: cover;background-repeat:no-repeat;-moz-animation:loading 0.8s steps(2) infinite;-webkit-animation:loading 0.8s steps(2) infinite;animation:loading 0.8s steps(2) infinite}.loading .loadingicon .percent{font-weight:normal;color: #6fc4f7; font-size:63px;font-family:"Arial";line-height:50px;position:relative;margin:180px auto}.wrapper{width:100%;position:relative;top:0;left:0}
+
+.wrapper{width: 980px; margin: 0 auto; position: relative; overflow: hidden}
+.mainc {width:100%; position: relative; top: 0; left: 0}
+.wrapperbg {position: relative; top: 0; left: 0; font-size: 0}
+.menu,.menu_o {position: absolute; top: 50px; right: 26px;}		/***<<<<<<<<<<***/
+.mask {width: 100%; height: 100% ; background-color: rgba(0,0,0,.7); position: absolute;top: 0; left: 0; display: none}
+.menu_o {display: none}
+.menuc {width: 580px; height: 100%; position: absolute; top: 0; right: -580px;background-color: #1a1b1f;}  		  /***<<<<<<<<<<***/
+.menu_btn {position: absolute; top: 0 ;left: 0}
+.menubtns {width: 100%; position:absolute; top: 0; left: 2px;}
+.menubtn {width: 100%; height: 170px;}		/***<<<<<<<<<<***/
+.menubtn:active { background: rgba(0,0,0,.5)}
+.footer {position: relative;}
+.logo {position: absolute; top: 20px; left: 20px; width: 384px; height: 134px}
+#readRule,#sendRule{width: 50px; height: 50px; left: -254px; top: 677px; position: absolute}
+#sendRule {top: 757px}
+				
+/*rule*/
+.rule {width: 100%}
+.rule img{width: 100%}
+.gototicket {width: 172px; height: 47px; position: absolute; top: 3087px;left: 475px}
+.lbtn {position: absolute; top: 1104px; right: -100%;transition: all  0.2s 0.6s linear; -webkit-transition: all 0.2s 0.6s linear;}
+.txt {position: absolute; left: -100%; top: 687px;transition: all  0.2s 0.3s linear; -webkit-transition: all 0.2s 0.3s linear;}
+.lbtn.animate {right: 0;}
+.txt.animate {left: 0;}
+.q-text{position: absolute; top: 470px; left: 311px; width: 621px;}
+.part1 {position: absolute; top: 0; left: 0;}
+.part2 {position: absolute; top: 1052px; left: 0;}
+.selectstyle{position: absolute; width: 618px; height: 78px; background: transparent; border: none; outline: none;	font-size: 30px; appearance: none; -moz-appearance: none; -webkit-appearance: none;	font-family: "微軟正黑體"}
+.inputstyle {position: absolute;  width: 618px; height: 78px;	background: transparent; border: none; outline: none; font: normal 30px/82px '微軟正黑體'}
+.selectstyle2 {position: absolute;  width: 274px; width: 274px; height: 78px; background: transparent; top: 342px; border: none; outline: none;	font-size: 30px; appearance: none; -moz-appearance: none; -webkit-appearance: none;	font-family: "微軟正黑體"}
+.store_tit {position: absolute; color: #ddd; left: 50px; top: 925px; font: normal 46px/46px "微軟正黑體"}
+.semd_btn {position: absolute; width: 481px; height: 182px; bottom: 275px; right: 192px; background: url('../img/semd_btn.png') 0 0 no-repeat;}
+.demo {position: absolute; width: 334px; height: 55px; right: 49px; top: 382px}
+.demo_c { display: none; width: 100%; height: 100%; background: #000; position: absolute; top: 0;left: 0}
+.demoBox {position: relative; margin: 30% auto;}
+.demo_tit{position: absolute; top: 0px;left: 31px}
+.demop{position: absolute; top: 95px;left: 50px}
+.close{position: absolute; top: 95px;right: 47px}
+.agreement {position: absolute; width: 567px; height: 55px; right: 49px; top: 1143px;}
+.send_ok {display: none; width: 100%; height: 100%; background: #fff; position: absolute; left: 0; top: 0;}
+.sendp {width: 100%; position: absolute; top: 0; left: 0;}
+.sendp img{ width: 100%;}
+.close2{position: absolute; top: 238px;right: 47px}
+.mail {position: absolute; width: 524px; height: 57px; left: 211px; top: 462px;}
+#Date {width: 372px; height: 80px; position: absolute; top: 249px; right: 25px;background: transparent; border: none; outline: none;font-size: 40px; appearance: none; -moz-appearance: none; -webkit-appearance: none;	font-family: "微軟正黑體"}
+.tableBox {position: absolute; top: 447px; left: 0; width: 100%; height: 975px; overflow-y: auto; overflow-x: hidden;}
+tr {width: 100%; height: 115px; font: normal 44px/115px '微軟正黑體'}
+td:first-child{position: absolute; left: 43px}
+td:nth-child(2){position: absolute; left: 244px}
+td:last-child{position: absolute; left: 568px} 
+.wcolor{
+	color:white;
+}
+
+.videoBtn{
+	position: absolute; top: 2132px; left: 28px; width: 400px; height: 90px
+}
+
+.mailLink{
+	position: absolute; bottom: 696px; left: 100px; width: 560px; height: 70px
+}

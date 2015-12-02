@@ -1,0 +1,96 @@
+a{
+	color: #000;
+}
+.wrapper .content2 .rule{
+	background: #131313;
+	line-height: 160%;
+}
+
+.wrapper .content2 .title {
+	margin-top:10%; 
+	width:429px;
+	height:66px;
+}
+
+.wrapper .content2 .people {
+	position: absolute;
+	top:-1%;
+	left:17%;
+	width:787px;
+	height:470px;
+	display: none;
+}
+
+.wrapper .content2 .rule  .noneT{
+	color:#ffffff;
+	padding:1% 5%;
+}
+
+.wrapper .content2 .rule  .noneT li{
+	margin-bottom: 1%;
+}
+
+.colorY{
+	margin-top: 2%;
+	list-style-image:url('../img/square.gif');
+	color:#fcd707;
+	font-weight: bolder;
+}
+
+.trangleT{
+	margin-top: 2%;
+	margin-left: 2%;
+	list-style-image:url('../img/trangle.png');
+	color:#ffffff;
+	font-weight: normal;
+}
+
+.square{
+	margin-right: 1%;
+	vertical-align:middle;
+	width: 6px;
+	height: 6px;
+}
+
+
+.decT{
+	color:#ffffff;
+	padding:1%;
+	padding-left:3%; 
+	list-style-type: decimal;
+	font-weight: normal;
+}
+
+.bgY{
+	color:#000;
+	background-color:#fcd707;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.unvisible {display:none;}
+.rule_pd{
+	width: 111px;
+	height: 113px;
+	position: absolute;
+	right: -68px;
+	top: 19px;
+	display: none
+}
+.rule_pd.animate img{
+	/*animation: rule_pd 4s linear 1s infinite alternate;*/
+	-webkit-animation: rule_pd 1s linear 1s infinite alternate;
+	-moz-animation: rule_pd 1s linear 1s infinite alternate;
+	-ms-animation: rule_pd 1s linear 1s infinite alternate;
+}	
+
+@keyframes rule_pd {
+    0%   {margin-top: 0px; margin-left: 0;}
+    50%  {margin-top: 10px; margin-left: 10px}
+    100% {margin-top: 0px; margin-left: 0px}
+}
+@-webkit-keyframes rule_pd {
+    0%   {margin-top: 0px; margin-left: 0;}
+    50%  {margin-top: 10px; margin-left: 10px}
+    100% {margin-top: 0px; margin-left: 0px}
+}

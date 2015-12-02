@@ -1,0 +1,33 @@
+- var name = 'product'
+extends ./template.jade
+block contain
+  .bg(style='position: absolute')
+    img(src='img/bg2.jpg')   
+  .content2
+    .pd
+      img(src='img/pd1.jpg')
+      img.pd_o(src='img/pd1_o.jpg')
+    |             
+    .pd
+      img(src='img/pd2.jpg')
+      |             
+      img.pd_o(src='img/pd2_o.jpg')
+      |             
+      .video
+    |             
+    .pd
+      img(src='img/pd3.jpg')
+      img.pd_o(src='img/pd3_o.jpg')
+    |             
+    .pd
+      img(src='img/pd4.jpg')
+      img.pd_o(src='img/pd4_o.jpg')
+  |     
+  .video_c
+    .playerbox
+      #player
+      |             
+      .close3
+        img(src='img/close.jpg')
+block script
+  <script>var page = 'pd';</script>
